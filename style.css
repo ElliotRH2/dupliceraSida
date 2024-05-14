@@ -1,5 +1,105 @@
-.container {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
     display: flex;
     justify-content: center;
-    background-color: rgb(177, 219, 255);
+    margin: 0px;
+    align-items: center;
+}
+
+header {
+    background-color: #5abaff;
+    height: 8px;
+    border: 5px solid blue;
+    border-radius: 20px;
+    height: 55px;
+    margin: 10px;
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: #5daeff;
+}
+
+.clickButton {
+    padding: 10px 20px;
+    background-color: #5f1db6; 
+    color: #fff; 
+    cursor: pointer;
+    width: 225px;
+    height: 100px;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    user-select: none;
+}
+
+footer {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.clickedRotate {
+    transform: rotate(45deg);
+}
+
+.clickedScaleX {
+    transform: scaleX(1.5);
+}
+
+.clickedSkew {
+    transform: skew(50deg, 30deg);
+}
+
+.clickedTranslate {
+    transform: translate(70px, 10px);
+}
+
+.clickedScaleY {
+    transform: scaleY(1.5);
+}
+
+.clickedFlip {
+    transform: rotate(180deg);
+}
+
+.rotate {
+    transform: rotate(10deg); 
+    color: yellow;
+}
+
+.scale {
+    transform: scaleX(0.8);
+    color: red;
+}
+
+.skew {
+    transform: skew(10deg, 20deg); 
+    color: green;
+}
+
+.translate {
+    transform: translateY(10px); 
+    color: purple;
+}
+
+.rotate2 {
+    transform: rotate(180deg);
+    color: blue;
 }
